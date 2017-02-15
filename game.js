@@ -12,7 +12,7 @@ var result = {
 		document.getElementById("winStm").innerHTML = "Wins: " + winPoint;
 	},
 
-	miss: function( {
+	miss: function() {
 		turns--;
 		guessList.push(guess);
 		document.getElementById("turnStm").innerHTML = "Guesses Left: " + turns;
